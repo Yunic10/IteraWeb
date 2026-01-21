@@ -36,7 +36,7 @@ export default function Navbar() {
                             </a>
                         ))}
                         <a 
-                            href="https://wa.me/6281234567890" 
+                            href="https://wa.me/6285122620532" 
                             className="bg-[#00914D] text-white px-6 py-2.5 rounded-full font-bold text-sm shadow-lg shadow-green-100 hover:scale-105 transition active:scale-95"
                         >
                             Konsultasi Gratis

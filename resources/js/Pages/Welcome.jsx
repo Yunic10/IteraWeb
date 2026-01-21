@@ -42,10 +42,10 @@ export default function Welcome() {
                                 Dari kartu nama, brosur, hingga banner besar. Hitung harga otomatis dan pesan langsung melalui sistem katalog kami.
                             </p>
                             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                                <Link href="/products/print" className="px-8 py-4 bg-[#00914D] text-white font-black rounded-2xl text-center shadow-lg shadow-green-100 hover:scale-105 transition">
+                                <Link href={route('products.print')} className="px-8 py-4 bg-[#00914D] text-white font-black rounded-2xl text-center shadow-lg shadow-green-100 hover:scale-105 transition">
                                     Buka Katalog Cetak
                                 </Link>
-                                <a href="https://wa.me/6281234567890" className="px-8 py-4 border-2 border-[#00914D] text-[#00914D] font-black rounded-2xl text-center hover:bg-gray-50 transition">
+                                <a href="https://wa.me/6285122620532" className="px-8 py-4 border-2 border-[#00914D] text-[#00914D] font-black rounded-2xl text-center hover:bg-gray-50 transition">
                                     Konsultasi Desain
                                 </a>
                             </div>

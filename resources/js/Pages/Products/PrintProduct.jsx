@@ -64,7 +64,7 @@ export default function PrintProduct({ products = [] }) {
     const sendWA = () => {
         const detail = cart.map(i => `- ${i.name} ${i.dimensions ? `(${i.dimensions})` : ''} x${i.qty}`).join('\n');
         const text = `Halo Itera Studio, saya pesan:\n\n${detail}\n\n*Total: Rp ${finalTotal.toLocaleString()}*`;
-        window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://wa.me/6285122620532?text=${encodeURIComponent(text)}`, '_blank');
     };
 
     const removeFromCart = (cartId) => {
